@@ -1,0 +1,48 @@
+/*************************banner按钮*****************************/
+.banner .banner-btn{margin:0 auto;position: absolute;width:700px;height:100px;z-index:10;}
+.banner .banner-btn>input{position: relative;bottom:100px;left:620px;width:88px;height:33px;outline:none;
+    border:none; list-style: none;text-align: center;opacity: 0.1;}
+.banner .banner-btn>input:nth-child(2){margin-left:12px;}
+/*******************大数据全栈运维  幕后hero***********************/
+.hero{background-color: #fff;width:100%;height:550px;border: 0;margin:0 auto;}
+.hero .one{text-align: center;}
+.masked{font-size: 40px;background-image: -webkit-linear-gradient(left,#f19d4d 25%, #df8797 65%, #e893a3 85%);
+        -webkit-text-fill-color: transparent; -webkit-background-clip: text;  -webkit-background-size: 100% 100%;
+        padding-top: 30px;text-align: center;}
+.masked>p:nth-child(2){border-top: 8px solid #df8797;width:60px;margin: 28px auto;}
+.hero .one .hero-font{color:#f19d4d;font-size: 16px;}
+.hero .one .hero-goon{margin:25px auto;width:1049px;height:265px;}
+.hero .one .hero-goon>div{float: left;border:3px solid #df8797;width:300px;height:265px;font-size:15px;margin-left: 30px;
+        text-align: center;}
+.hero .one .hero-goon div p img{margin-top: 20px;box-sizing: border-box}
+.hero .one .hero-goon div p span{color:#f19d4d;font-weight: bold;font-size:23px;padding-right: 90px;line-height: 40px;}
+.hero .one .liaojie{border:2px solid #e893a3;width:110px;font-size:15px;margin: 0 auto;line-height: 30px;color:#f19d4d;}
+.hero .one .liaojie:hover{background-color:#f19d4d;border:2px solid #e893a3;color:#fff;}
+/************************************未来市场的大数据运维****************************************/
+.salay{position: absolute;}
+.salay>p{position: relative;bottom:48px;left:620px;color:#f19d4d;border:3px solid #e893a3;width:150px;height:30px;
+        line-height: 30px;text-align: center;}
+.salay>p:hover{background-color:#f19d4d;border:2px solid #e893a3;color:#fff;}
+/**************************************大数据+运维  两杯机会***************************************/
+.big-data{background-color: #fff;margin:0 auto;width:100%;height:750px;}
+.big-data .big .data>p{text-align: center;font-size: 18px;}
+/*左侧*/
+.big-data .big .img{width:1000px;height:300px;}
+.big-data .big .img .img-left{width:750px;float:left;margin-left: 100px;}
+.big-data .big .img .img-left>p{text-align: center;font-size: 22px;color:#4483b7;margin:35px auto;}
+/*右侧 表单*/
+.baoming{background:url(../img/product/big-data/data09.png)no-repeat 20px;width:290px;height:285px;
+    margin-left:81.5%;padding-top:335px;padding-left:137px;margin-top:-20px;}
+form{margin-top:-60px;}
+.baoming input{height:49px;border: none;background: transparent;font-size:16px;margin-left:23px;
+    outline: none;}
+.baoming .shiting input{font-size: 24px;text-align: center;color:#cb1b3d;margin-top: 28px;
+    border:1px solid #cb1b3d;border-radius:10px;width:211px;height:40px;transition: 1s;}
+.baoming .shiting input:hover{color:#fff;background-color:#cb1b3d;}
+
+
+
+
+
+
+

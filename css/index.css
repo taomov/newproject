@@ -1,0 +1,270 @@
+
+/*********************************首页banner图*****************************************/
+#banner{  position:relative;  top:0; left:0;  margin:0 auto;  height:400px;  z-index: 10;  overflow: hidden;  }
+#banner>img{  position:absolute;top:0;left:0; opacity:0; transition:all .5s linear; width:100%; height:400px;  }
+#banner>img.show{  opacity:1;z-index:10  }
+/*圆点*/
+#banner ul.indicators{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-34px;
+    z-index:999;
+}
+#banner ul.indicators li{
+    width:16px;
+    height:16px;
+    background:#fff;
+    border-radius:50%;
+    float:left;
+    margin-right:5px;
+    transition:all .2s linear;
+}
+#banner ul.indicators li:hover,#banner ul.indicators li.hover{
+    cursor:pointer;
+    background-color:#0AA1ED;
+}
+/*************************banner图下面的小图和报名流程..*********************************/
+.banner-bottom{width:1403px;height:auto;margin: 46px auto 0px;}
+.banner-bottom .left ul{float:left;margin-top:-12px;}
+.banner-bottom .left ul li{float: left;margin-right: 50px;position: relative; padding-bottom: 35px;}
+.banner-bottom .left .left-cover{position:absolute;bottom:35px;left:0;width:263px;height:35px;line-height:35px;
+    text-align:center;opacity: 0;transition: all .5s linear;background:rgb(0,0,0.6); color:#fff;  }
+.banner-bottom .left{width:100%;margin-left: 80px;}
+.banner-bottom .right{position: relative;left:30px;top:0;width:338px;float: left;
+}
+.banner-bottom .right .right1{float: left;width:70px;padding-left:20px; border: 2px solid #fff;border-top:0;border-left:0;  }
+.banner-bottom .right .right1:nth-child(3),
+.banner-bottom .right .right1:nth-child(6){  border-right:0;  }
+.banner-bottom .right .right1:nth-child(4),
+.banner-bottom .right .right1:nth-child(5),
+.banner-bottom .right .right1:nth-child(6) {  border-bottom:0;  }
+.right1 p{  padding-top:5px;  padding-bottom: 25px;  }
+.right2{  padding-top: 15px;  }
+.banner_bottom .left li:hover .left-cover{opacity:1; transition:1s;}
+/*******************************楼梯公共样式****************************************/
+.border-cet{ border:1px solid pink;border-radius: 5px;background-color:#fff;width:953px;height:415px;float:left;}
+.border-cet .border-rt{width:466px;}
+.riqi{text-align: center;}
+.xuexi .btn1{width:115px;height:28px;line-height:28px;margin-top: 30px;background:url(../img/index/kechengtixi_java_button1.jpg);
+    color:#fff;font-size:16px;border:none;outline: none; /*去除btn点击后的边框*/  }
+.btn1>a{color:#fff;}
+.jiuye-p{margin-top:140px; }
+.jiuye p{  font-size: 12px;color: #1b1b1b;  }
+.border-lt{padding-top:59px;}
+.border-lt span:first-child{font-size: 16px;float:left;color:#000;}
+.border-lt span:first-child a{font-size:12px;}
+.border-lt span:nth-child(2){font-size: 16px;float:left;}
+.border-lt span:nth-child(2) a{font-size:12px;}
+.border-lt span:nth-child(2) img{padding-left: 108px;}
+.border-lt .images span>img{border-radius: 12px;cursor:pointer;margin-top: 20px;}
+.border-lt .images span>img:nth-child(2){margin-left:10px;cursor: pointer;}
+.dingjiamingshi{margin-top:180px;font-size:16px;}
+.xuexi3 .btn1 a{color:#fff;}
+/*右侧-2*/
+.border-img{padding-top:59px;}
+.border-img span:first-child{font-size: 16px;float:left;color:#000;}
+.border-img span:first-child a{font-size:12px;}
+.border-img span:nth-child(2){font-size: 16px;float:left;}
+.border-img span:nth-child(2) a{font-size:12px;}
+.border-img span:nth-child(2) img{padding-left: 108px;}
+/*.border-img .images span>img{border-radius: 12px;cursor:pointer;margin-top: 20px;}*/
+/*.border-img .images span>img:nth-child(2){margin-left:10px;cursor: pointer;}*/
+.border-img .dingjiamingshi{font-size:16px;}
+.img-fixed{position:relative;}
+.img-fixed>img:nth-child(1){position:absolute;top:50px;right:170px;}
+.img-fixed>img:nth-child(2){position:absolute;top:50px;right:-70px;}
+video{position:absolute;top:0;right:0;display:none;}
+/*************************每个楼梯之间的间距*********************************/
+.border1{padding-top:58px;height: 415px;width:1403px;margin:0 auto;}
+/************************1.全栈H5+Java---一层*********************/
+.kechengtixi .title{background:#fff url(../img/index/yigenjindongtai_title_pic.png)no-repeat center;height: 148px;
+    text-align: center;font-size: 23px;margin: 50px 0 0 0;font-weight: normal;}
+                /*---左侧  */
+.quanzhankaifa{background: url(../img/index/kechengtixi_content_left_h5.png);color:#eee;text-align: center;
+    margin-left:120px; width: 235px; height: 415px;  }
+.quanzhankaifa h1{margin-top:59px;font-size:30px;font-weight: normal;}
+.quanzhankaifa h2{  font-size: 16px;  margin-top:13px;  margin-bottom: 198px;  font-weight: normal;  }
+.quanzhankaifa h3>a{  color: #eee;  font-size: 16px;  font-weight: normal;  }
+/*右侧-1*/
+.riqi{text-align: center;font-size: 16px;color:#fff;}
+.border-rt  .riqi>p{  font-size: 19px;  color: #323131;  padding-top:55px;  }
+.kaiban{background: url(../img/index/yellow80.gif)no-repeat -30px center;height:110px;padding-top: 30px;}
+
+.kaiban .s1{font-size: 39px; color: #fff;}
+.kaiban .s2{ font-size: 16px; color: #fff;}
+.xuexi .s3{  width: 232px;  float: left;  margin: 15px 0 15px 0;  border-right: 1px solid #909090;  height:50px;  }
+.xuexi h1{font-weight: normal;font-size: 14px;color: #595959;}
+.xuexi h2{font-weight: normal; font-size: 16px;color: #1b1b1b;}
+.xuexi .s4{  float: right;  padding-right: 50px;  margin: 15px 0 15px 0;  }
+.xuexi .btn1{  width:103px;  height:28px;  line-height:28px;  margin-top: 30px;   border:none;
+    background:url(../img/index/kechengtixi_java_button1.jpg);  color:#fff;  font-size:16px;outline: none;  }
+/*************************2.全栈H5+跨平台---二层*************************/
+/*---左侧  */
+.kuapingtai{  background: url(../img/index/kechengtixi_content_left_php.png);  color:#eee;  text-align: center;
+    margin-left:120px;  width: 235px;  height: 415px;  }
+.kuapingtai h1{  margin-top:59px;  font-size:30px;  font-weight: normal;  }
+.kuapingtai h2{  font-size: 16px;  margin-top:13px;  margin-bottom: 198px;  font-weight: normal;  }
+.kuapingtai h3>a{  color: #eee;  font-size: 16px;  font-weight: normal;  }
+/*****************右侧-1*************************/
+
+.riqi{text-align: center;font-size: 16px;color:#fff;}
+.border-rt  .riqi>p{  font-size: 19px;  color: #323131;  padding-top:55px;  }
+.kaiban1{
+    background: url(../img/index/blue90.gif)no-repeat -30px center;  height:110px;  padding-top: 30px;  }
+
+.kaiban1 .s1{font-size: 39px; color: #fff;}
+.kaiban1 .s2{ font-size: 16px; color: #fff;}
+.xuexi1 .s3{  width: 232px;  float: left;  margin: 15px 0 15px 0;  border-right: 1px solid #909090;  height:50px;  }
+.xuexi1 h1{font-weight: normal;font-size: 14px;color: #595959;}
+.xuexi1 h2{font-weight: normal; font-size: 16px;color: #1b1b1b;}
+.xuexi1 .s4{  float: right;  padding-right: 50px;  margin: 15px 0 15px 0;  }
+.xuexi1 .btn1{  width:103px;  height:28px;  line-height:28px;  margin-top: 30px;  background:url(../img/index/kechengtixi_php_button1.jpg);
+    color:#fff;  font-size:16px;  border:none;  outline: none;  }
+/*********************************3.全栈UI设计---三层*********************************/
+/*---左侧  */
+.ui-sheji{
+    background: url(../img/index/kechengtixi_content_left_ui.png);  color:#eee;  text-align: center;
+    margin-left:120px;  width: 235px;  height: 415px;  }
+.ui-sheji h1{  margin-top:59px;  font-size:30px;  font-weight: normal;  }
+.ui-sheji h2{  font-size: 16px;  margin-top:13px;  margin-bottom: 198px;  font-weight: normal;  }
+.ui-sheji h3>a{  color: #eee;  font-size: 16px;  font-weight: normal;  }
+/*****************右侧-1*****************/
+.riqi{text-align: center;font-size: 16px;color:#fff;}
+.border-rt  .riqi>p{  font-size: 19px;  color: #323131;  padding-top:55px;  }
+.kaiban2{
+    background: url(../img/index/green90.gif)no-repeat -30px center;  height:110px;  padding-top: 30px;  }
+
+.kaiban2 .s1{font-size: 39px; color: #fff;}
+.kaiban2 .s2{ font-size: 16px; color: #fff;}
+.xuexi2 .s3{  width: 232px;  float: left;  margin: 15px 0 15px 0;  border-right: 1px solid #909090;  height:50px;  }
+.xuexi2 h1{font-weight: normal;font-size: 14px;color: #595959;}
+.xuexi2 h2{font-weight: normal; font-size: 16px;color: #1b1b1b;}
+.xuexi2 .s4{  float: right;  padding-right: 50px;  margin: 15px 0 15px 0;  }
+.xuexi2 .btn1{  width:103px;  height:28px;  line-height:28px;  margin-top: 30px;border:none;
+    background:url(../img/index/kechengtixi_ui_button2.jpg);  color:#fff;  font-size:16px;  outline: none;}
+/*************************4.VR虚拟现实---四层*************************/
+/*---左侧  */
+.xunixianshi{width: 235px;height: 415px;text-align: center;
+    background: url(../img/index/kechengtixi_content_left_vr.png);  color:#eee;    margin-left:120px;  }
+.xunixianshi h1{  margin-top:59px;  font-size:30px;  font-weight: normal;  }
+.xunixianshi h2{  font-size: 16px;  margin-top:13px;  margin-bottom: 198px;  font-weight: normal;}
+.xunixianshi h3>a{  color: #eee;  font-size: 16px;  font-weight: normal;  }
+/*右侧-1*/
+.riqi{text-align: center;font-size: 16px;color:#fff;}
+.border-rt  .riqi>p{  font-size: 19px;  color: #323131;  padding-top:55px;  }
+.kaiban3{
+    background: url(../img/index/purple70.gif)no-repeat -30px center;  height:110px;  padding-top: 30px;  }
+
+.kaiban3 .s1{font-size: 39px; color: #fff;}
+.kaiban3 .s2{ font-size: 16px; color: #fff;}
+.xuexi3 .s3{  width: 232px; float: left; margin: 15px 0 15px 0; border-right: 1px solid #909090; height:50px;  }
+.xuexi3 h1{font-weight: normal;font-size: 14px;color: #595959;}
+.xuexi3 h2{font-weight: normal; font-size: 16px;color: #1b1b1b;}
+.xuexi3 .s4{  float: right;  padding-right: 50px;  margin: 15px 0 15px 0;  }
+.xuexi3 .btn1{  width:103px;  height:28px;  line-height:28px;  margin-top: 30px;outline: none;
+    background:url(../img/index/kechengtixi_vr_button1.jpg);  color:#fff;  font-size:16px;  border:none;  }
+/*****************************1.优秀学员分割*********************************/
+.youxiuxueyuan{  width: 100%;  margin: 0 auto;  overflow: hidden;  }
+.youxiuxueyuan .title{
+    background:#fff url(../img/index/yigenjindongtai_title_pic.png)no-repeat center 80px;  height: 128px;
+    text-align: center;  padding-top: 15px;  font-size: 23px;  margin: 50px 0 30px 0;  font-weight: normal; }
+.youxiuxueyuan .content{width:1403px;margin:0 auto;height:auto;}
+.youxiuxueyuan .content .top{margin-left:110px;width:100%}
+.youxiuxueyuan .content .top li{position: relative;float:left;margin-left:23px;}
+.youxiuxueyuan .content .top li div{position:absolute;top:0;left:0;background:rgba(0,0,0,0.5);width:100%;
+    height:125px;border-radius:7px;text-align:center;font-size:12px;color:#fff;padding-top:60px;
+    transition:all 1s linear;display: none;}
+.bottom-bottom{display:block;padding-top:230px;width:1403px;height:auto;margin:0 auto;}
+.bottom-bottom .left-lt{float:left;width:585px;height:300px;margin-left: 100px;}
+.bottom-bottom .left-lt>h1{  font-size: 25px;  color: #ad5257;  margin-bottom: 32px;  text-align: center;  }
+.bottom-bottom .right-rt{  float:left;  width:582px;  height:300px;  border-radius: 8px;  background-color: #fff;
+    padding-right: 25px;  }
+.bottom-bottom .right-rt h1{font-size:32px;color:#ad5257;font-weight: normal;padding-left:35px;padding-top:53px;}
+.bottom-bottom .right-rt h1 p{font-size:14px;color:#000000;font-weight: normal;padding-top:10px;padding-left:35px;}
+/******************************************2.就业信息***********************************************/
+.jiuyexinxi{width:100%;margin:auto 0;text-align: center;}
+.jiuyexinxi .title{
+    background:#fff url(../img/index/yigenjindongtai_title_pic.png)no-repeat center 80px;  height: 128px;
+    text-align: center;  padding-top: 15px;  font-size: 23px;  margin: 50px 0 30px 0;  font-weight: normal;  }
+.jiuyexinxi .left-lt{float:left;height:300px;width:585px;margin-left: 100px;}
+.list_lh{ height:295px; overflow:hidden;}/*影响滚动*/
+.jiuyexinxi .left-lt>h1{  font-size: 25px;  color: #ad5257;  margin-bottom:13px;  text-align: center;  }
+.jiuyexinxi .content .left-lt .slidetitle{background-color:#ad5257;border-top-left-radius: 10px;height:42px;
+    border-top-right-radius: 10px;text-align:center;font-size:16px;color:#fff;line-height:42px;margin-left:40px;}
+.jiuyexinxi .content .left-lt .slidetitle>span{text-align: center;display:inline-block;width:120px; }
+.list_lh ul li{background-color:#fff;overflow:hidden;border-bottom:2px solid #d0d0d0;height:42px;line-height:42px;margin-left:40px;}
+.list_lh ul li p>span{  text-align: center;  display: inline-block;  width:123px;    }
+.list_lh ul li p>span:last-child{  color:#fff;  background-color: #ad5257;  }
+.jiuyebaozhang{float:left;margin-left: 50px;}
+.jiuyebaozhang>h1{  font-size:25px;  color:#ad5257;  text-align: center;  }
+.jiuyebaozhang>h2{  font-size: 14px;  text-align: center;  padding-bottom: 10px;  }
+.jiuyexinxi .content{width:100%;}
+/******************************3.校园环境*****************************/
+.index-ev{  width:100%;  margin-top:45px;  }
+.index-ev .xiaoyuanhuanjing{  width: 100%;  margin: 0 auto;  overflow: hidden;  }
+.index-ev .xiaoyuanhuanjing .title{
+    background:#fff url(../img/index/yigenjindongtai_title_pic.png)no-repeat center 80px;height: 128px;
+    text-align: center;  font-size: 23px;  margin-bottom:18px;  font-weight: normal;  }
+.index-ev .ev-bottom{  width: 1200px;  height: 584px;  margin: 50px auto 0px;  }
+.index-ev .ev-bottom li{  width: 380px;  margin-left:20px;  float: left;  position: relative;  }
+.index-ev .ev-bottom li p{ text-align:center ;  }
+.index-ev .ev-bottom li:nth-child(4){  width: 1180px;  margin:25px 0 -50px 20px ;  }
+.index-ev .ev-bottom li:nth-child(4)>div{  width:340px;  position: relative;  bottom:120px;  left: 700px;  }
+.index-ev .ev-bottom li>.ev-moban{  width:335px;  height:167px;  background:rgba(0,0,0,0.7);  position: absolute;
+    top:0;  left:0;  color:#fff;  padding:35px 22px 0 25px;  font-size:16px;  line-height: 25px;
+   transition: all 1s linear; display: none; }
+.ev-beijing{  font-size: 14px;  color:#fff;  line-height:23px;  }
+.ev-beijing p{  font-size:18px;  }
+.index-ev .jianshe p{padding-top:30px;}
+/******************************4.选择一根筋教育的理由*****************************/
+.xuanzeliyou{  width: 100%;  margin: 0 auto;  overflow: hidden;  height:550px;}
+.xuanzeliyou .title{
+    background:#fff url(../img/index/yigenjindongtai_title_pic.png)no-repeat center 80px;  height: 128px;
+    text-align: center;  padding-top: 15px;  font-size: 23px;  margin: 45px 0 30px 0;  font-weight: normal;  }
+.xuanzeliyou .cotent{  width: 1200px;  margin: 50px auto 60px auto;  }
+.xuanzeliyou .cotent li{  width: 181px;  height: 286px;  float:left;  margin-left:15px;  }
+.xuanzeliyou .cotent li p{  width:125px;  font-size:14px;  margin-top:117px;  margin-left:35px;  }
+.xuanzeliyou .cotent ul li:first-child{  background:url(../img/index/xuanzeliyou1.png)no-repeat;  }
+.xuanzeliyou .cotent ul li:nth-child(2){  background:url(../img/index/xuanzeliyou2.png)no-repeat;}
+
+.xuanzeliyou .cotent ul li:nth-child(3){  background:url(../img/index/xuanzeliyou3.png)no-repeat;  }
+.xuanzeliyou .cotent ul li:nth-child(4){  background:url(../img/index/xuanzeliyou4.png)no-repeat;  }
+.xuanzeliyou .cotent ul li:nth-child(5){  background:url(../img/index/xuanzeliyou5.png)no-repeat;  }
+.xuanzeliyou .cotent ul li:nth-child(6){  background:url(../img/index/xuanzeliyou6.png)no-repeat;  }
+/*.box li:hover{*/
+    /*position:relative;*/
+    /*bottom:-13px;*/
+    /*left:0;*/
+/*}*/
+/**********************中间分割，下半部分****五层一根筋动态******************************************/
+.yigenjindongtai{  width:100%;  margin:0 auto;  }
+.yigenjindongtai .title{
+    background:#fff url(../img/index/yigenjindongtai_title_pic.png)no-repeat center 80px;  height:128px;
+    text-align: center;  font-size:23px;  padding-top:15px;  margin: 55px 0 30px 0;  }
+.yigenjindongtai .cotent{  width:1403px;  margin:0 auto;  height:auto;  }
+.yigenjindongtai .cotent>div{  background-color:#fff;  border-radius: 10px;  float:left;  margin-left:55px;
+    height:358px;  margin-bottom:80px;  }
+.yigenjindongtai .cotent>div>ul{  height:140px;  line-height:28px;  font-size: 14px;  padding-left: 28px;  }
+.yigenjindongtai .cotent>div>ul>li{  list-style: disc;  color:#646464;  }
+.yigenjindongtai .cotent h1{  height:45px;  line-height: 45px;  padding-left:15px;  }
+.yigenjindongtai .cotent h1 span{  float:right;  padding-right:10px;  }
+.yigenjindongtai .cotent a img{margin-bottom:10px;}
+
+/************************公共---弹出框--右下角*********************/
+/*弹出框*/
+#msg{width:429px;height:253px;position:fixed;right:30px;bottom:-200px;
+    background:url(../img/index/m_b_0.gif) no-repeat 208px;transition:all 1s linear;  }
+#msg>a{float:right;padding:12px 15px;cursor:pointer;}
+#msg>.talk_main{position:relative;left:218px;top:0;width:100%;height:100%;overflow: hidden;}
+#msg>.talk_main .talk_content{height:50px;width:180px;margin:5px;font-size: 12px;color:#848484;}
+#msg>.talk_main .talk_content .msg_content{width:100%;height:100%;resize:none;background-color:#EEE;}
+#msg>.talk_main>div>input{margin-left: 5px;margin-top:5px;background:#EEE;border:1px solid black;}
+#msg>.talk_main #talk_submit{background: url(../img/index/m_btn_0.gif) no-repeat;font-size: 10px;color: #000;
+    line-height:32px;height:32px;width:63px;text-align: center;float: left;}
+#msg>.talk_main #talk_freephone{background:url(../img/index/m_p_0.gif)no-repeat center center;float:left;width:92px;
+    line-height:32px;height:32px;display:block;padding-left:60px;text-decoration:none;color:#000;font-size:10px;}
+
+
+
+

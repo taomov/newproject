@@ -1,0 +1,167 @@
+/****************************轮播引用index*******************************************/
+.main{background-color:#fff;}
+/*******************************未来是全栈H5 +的Java的世界*****************************/
+.main .java-develop{width:100%;height:581px;margin-top:55px;}
+.main .java-develop p{background:url(../img/product/java/java01.png)no-repeat;width:735px;height:83px;
+    margin:0 auto;font-size:36px;color:#ed3a5a;text-align: center;}
+.main .java-develop p span{font-size:18px;color:#000;display:block;margin-top:5px;}
+.main .java-develop .develop-boddtom{width:1205px;margin:56px auto 0;}
+.main .java-develop .develop-boddtom li{position: relative;height:227px;width:225px;float:left;
+    padding: 166px 0 0 48px;cursor: pointer;transition:0.5s;font-size: 16px;margin-right:28px;}
+.main .java-develop .develop-boddtom li:first-child{background:url(../img/product/java/java02.png)no-repeat;}
+.main .java-develop .develop-boddtom li:nth-child(2){background:url(../img/product/java/java03.png)no-repeat;}
+.main .java-develop .develop-boddtom li:nth-child(3){background:url(../img/product/java/java04.png)no-repeat;}
+.main .java-develop .develop-boddtom li:nth-child(4){background:url(../img/product/java/java05.png)no-repeat;}
+.main .java-develop .develop-boddtom li:hover{color:#fff;}
+.main .java-develop .develop-boddtom li:nth-child(1):hover{background:url(../img/product/java/java33.png)no-repeat;}
+.main .java-develop .develop-boddtom li:nth-child(2):hover{background:url(../img/product/java/java34.png)no-repeat;}
+.main .java-develop .develop-boddtom li:nth-child(3):hover{background:url(../img/product/java/java35.png)no-repeat;}
+.main .java-develop .develop-boddtom li:nth-child(4):hover{background:url(../img/product/java/java36.png)no-repeat;}
+/*******************************全栈可以学微信小程序么*************************************/
+.main .java-galary{background: url(../img/product/java/java06.png)no-repeat;width:100%;height:1673px;
+    /*background-size: 100% 100%;*/}
+.main .java-galary .btn{width:332px;height:42px;margin:0 auto;color:#ed3a5a;font-size:23px;
+    text-align:center;border:1px solid red;cursor:pointer;line-height: 42px;transition: 1s;}
+.main .java-galary .btn:hover{background-color:#ed3a5a;color:#fff;transition: 1s;}
+.main .java-galary .galary-content{width:1205px;margin:124px auto 0;}
+.main .java-galary .galary-content p{background:url(../img/product/java/java01.png)no-repeat;
+    text-align:center;width:730px;height:107px;font-size: 40px;color:#fff;margin:0 auto;}
+.main .java-galary .galary-content p>span{font-size:18px;color:#000;display:block;margin-top:10px;}
+.main .java-galary .galary-content .title{background:url(../img/product/java/java07.png)no-repeat;width:146px;
+    height:46px;margin-top: 46px;}
+.main .java-galary .galary-content .title-next{font-size: 18px;color:#fff;margin-top:10px;margin-left:50px;}
+.main .java-galary .galary-content .galary-border{width:1205px;height:629px;margin-top:49px;}
+.main .java-galary .galary-content .galary-border li{border:3px solid #f9a616;width:282px;height:198px;float:left;
+    margin-right:50px;padding:32px 0 0 58px;border-radius:10px;margin-bottom:50px;font-size:16px;
+    background:#fff url(../img/product/java/java08.png)no-repeat 20px 14px;line-height:23px;}
+.main .java-galary .galary-content .galary-border li span{font-size:30px;color:#f9a616;margin-left:32px;
+    margin-bottom:30px;line-height: 68px;}
+.main .java-galary .galary-content .galary-border li:first-child font{color:#f9a616;}
+.main .java-galary .galary-content .galary-border li:nth-child(2){
+    background:#fff url(../img/product/java/java09.png)no-repeat 20px 14px;
+}
+.main .java-galary .galary-content .galary-border .qianduan{color: #15b9c2; }
+.main .java-galary .galary-content .galary-border li:nth-child(2) font{color: #15b9c2;}
+.main .java-galary .galary-content .galary-border li:nth-child(3){
+    background:#fff url(../img/product/java/java10.png)no-repeat 20px 14px;
+}
+.main .java-galary .galary-content .galary-border .houduan{color: #77a02a; }
+.main .java-galary .galary-content .galary-border li:nth-child(3) font{color: #77a02a;}
+.main .java-galary .galary-content .galary-border li:nth-child(4){
+    background:#fff url(../img/product/java/java11.png)no-repeat 20px 14px;
+}
+.main .java-galary .galary-content .galary-border .pachong{color: #fea4a4; }
+.main .java-galary .galary-content .galary-border li:nth-child(4) font{color:#cb1b3d;;}
+.main .java-galary .galary-content .galary-border li:nth-child(5){
+    background:#fff url(../img/product/java/java12.png)no-repeat 20px 14px;
+}
+.main .java-galary .galary-content .galary-border .sousuo{color: #a350e6; }
+.main .java-galary .galary-content .galary-border li:nth-child(5) font{color: #a350e6;}
+
+.main .java-galary .galary-content .galary-border li:nth-child(6){
+    background:#fff url(../img/product/java/java13.png)no-repeat 194px 47px;cursor: pointer;
+}
+.main .java-galary .galary-content .galary-border .chakan{color: #02d8b4;line-height: 38px;display: block;
+    margin:32px 0 10px 24px;}
+.main .java-galary .galary-content .galary-border .galary-borderf .border-word>b{font-size:30px;line-height: 23px;
+    color:#02d8b4;font-weight: normal;}
+.main .java-galary .galary-content .galary-border li:nth-child(6) font{color: #02d8b4;}
+.main .java-galary .galary-content .titletwo{background:url(../img/product/java/java14.png)no-repeat;width:163px;height:46px;}
+.main .java-galary .galary-content .galary-content-tree{font-size:18px;color:#fff;}
+.main .java-galary .galary-content .galary-content-tree span img{margin-bottom:-18px;}
+.main .java-galary .galary-content .galary-content-two{margin:25px auto 0;width:1200px;height:327px;}
+.main .java-galary .galary-content .btn1{width:238px;height:42px;border:1px solid #fff;text-align: center;margin:0 auto;font-size:24px;line-height:42px;
+    color:#fff;margin-top:34px;cursor: pointer;transition: 1s;}
+.main .java-galary .galary-content .btn1:hover{color:#ed3a5a;background-color: #fff;transition: 1s;}
+/*******************************Java应用领域无处不在*************************************/
+.main .java-life{width:100%;height:488px;background:url(../img/product/java/java18.png)no-repeat top center;
+    background-size: cover;}
+.main .java-life .baoming{background:url(../img/product/java/java19.png)no-repeat 20px;width:290px;height:285px;
+    margin-left:59.5%;padding-top:185px;padding-left:137px;margin-top:-20px;}
+.main .java-life .baoming input{height:53px;border: none;background: transparent;font-size:16px;margin-left:23px;
+    outline: none;}
+.main .java-life .baoming .shiting input{font-size: 24px;text-align: center;color:#cb1b3d;margin-top: 28px;
+    border:1px solid #cb1b3d;border-radius:10px;width:211px;height:40px;transition: 1s;}
+.main .java-life .baoming .shiting input:hover{color:#fff;background-color:#cb1b3d;}
+/*******************************7大模块 练就全栈开发全能人才*************************************/
+.main .java-chose p{width:733px;height:102px;background:url(../img/product/java/java01.png)no-repeat;color:#ed3a5a;
+    text-align: center;margin:0 auto;font-size: 40px;padding-top: 15px;}
+.main .java-chose p span{color:black;font-size: 24px;}
+.main .java-img{width:1202px;height:600px;margin:75px auto 0;}
+/*******************************教学经验+从业经验 双重保障*************************************/
+.main .java-teacher{width:100%;height:710px;background:#f35349;background-size:100% 100%;padding-top:67px;}
+.java-teacher p{width:733px;height:102px;background:url(../img/product/java/java01.png)no-repeat;color:#fff;
+    text-align: center;margin:0 auto;font-size: 40px;padding-top:15px;}
+.java-teacher p span{color:black;font-size: 24px;}
+.java-teacher .teacher-content{width:1200px;margin:85px auto 0;height:auto;}
+.java-teacher .teacher-content .swiper-container{position:relative;margin-left:auto;overflow:hidden;
+    z-index:1;margin-right:auto;}
+.java-teacher .swiper-slide{height:100%;position: relative;/*opacity:0;*/flex-shrink:0;
+    transition:all .5s linear;width:100%;}
+.java-teacher .swiper-slide.show{opacity:1;z-index: 10;}
+.java-teacher .swiper-slide .java-touxiang{margin:auto;width:189px;height:187px}
+.java-teacher .swiper-slide .java-jieshao{margin:auto;width:148px;height:41px;margin-top:38px;}
+.java-teacher .swiper-slide .java-mingyan{text-align: center;color:#fff;margin-top:28px;
+    font-size: 13px;}
+.teacher-contentright{width:671px;height:421px;float:left;}
+/************************与时俱进的课程 能塑造高薪传奇*************************************/
+.java-class{width:100%;height:auto;padding-top:80px;}
+.java-class .java-class-first{width:733px;height:102px;background:url(../img/product/java/java01.png)no-repeat;color:#ed3a5a;
+    text-align: center;margin:0 auto;font-size: 40px;padding-top: 15px;}
+.java-class .java-class-first span{color:black;font-size: 24px;}
+.java-class .java-classmain{width:1200px;height:610px;margin:30px auto 0;}
+.java-class .java-classmain .fl {float:left;font-size:16px;}
+.java-class .java-classmain .fl li{ background-color:gray;width:200px;height:55px;padding-top:15px;margin-bottom:10px;
+    margin-right:10px;cursor: pointer;font-size:16px;line-height: 19px;text-align: center;}
+/*.java-class .java-classmain .fl li>a:hover{ color:#fff}*/
+.java-class .java-classmain .fr{float:left;color:#fff;position: relative;}
+.java-class .fr .java-centerbottom{width:959px;height:550px;background:#f7867f;padding-left:20px;
+    position: absolute;top:0;left:0;}
+/*.java-class .fr .java-centerbottom .java-stylecontent{position: absolute;top:100px;left:0;}*/
+.java-class .fr .java-centerbottom .java-stylecontent p{font-size: 24px;border-bottom:2px solid #fff;height:60px;
+    line-height:60px;padding-top:20px;}
+.java-class .fr .java-centerbottom .java-stylecontent-one{margin-top:20px;}
+.java-class .fr .java-centerbottom .java-stylecontent-one span{font-size:18px;margin-right:48px;float:left;}
+.java-class .fr .java-centerbottom .java-stylecontent-one ul{float:left;margin-right:80px;margin-bottom:10px;}
+.java-class .fr .java-centerbottom .java-stylecontent-one ul li{font-size:16px;line-height:25px;}
+.java-class .fr .java-centerbottom .java-stylecontent-two{margin-top:20px;}
+.java-class .fr .java-centerbottom .java-stylecontent-two span{float:left;margin-right:20px;font-size:18px;}
+/************************不必羡慕别人 只要努力就能超越他们************************************/
+.java-goon{width:100%;height:590px;padding-top:180px;background:url(../img/product/java/java06.png)no-repeat top center;
+    background-size:cover;text-align: center;}
+.java-goon p{width:700px;height:117px;background:url(../img/product/java/java01.png)no-repeat;color:#fff;
+    margin:0 auto;font-size: 33px;}
+.java-goon-one{width:700px;margin:0 auto;height:40px;}
+.java-goon-one li{float:left;margin-left: 160px;}
+.java-goon-two>img{margin-top:15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

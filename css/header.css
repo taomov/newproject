@@ -1,0 +1,97 @@
+header{  width:100%;margin:0 auto;background:#fff; }
+header .pubtop .top{width:1200px;margin:0 auto;}
+header .pubtop .top h1{float:left;font-size:12px;text-align:center;}
+header .pubtop .top h1 a{color:#717171;}
+header .pubtop .top div{float:right;}
+header .pubtop .top div span{margin-right:15px;  position:relative;  font-size:12px;  }
+header .pubtop .top div span a{color:#717171;}
+header .pubtop .top div span:last-child{margin-right:0;}
+header .pubtop .top #weixin{  position:absolute;  top:25px;left:0;  display:none;  }
+header .pubtop .bottom{  width:1200px;  margin:16px auto 70px;  height:auto;}
+header .pubtop .bottom h1{  float:left;  width:880px; height:83px;  }
+header .pubtop .bottom h1 span{display:block;float:left;border-left:2px solid #ededed;height:36px; margin-top:10px;width:auto; }
+header .pubtop .bottom  h1 .fenxiao{width:636px; height:45px;margin-left:15px; font-size:12px;float:left; margin-top:-10px;  }
+header .pubtop .bottom  h1 img{float:left; margin-right:20px;}
+header .pubtop .bottom  h1 .fenxiao li{  float:left; width:60px;  text-align:center;  padding-top:50px;
+    cursor:pointer;  margin-right:27px;  }
+header .pubtop .bottom  h1 .fenxiao .beijing{
+    background:url(../img/header/iconT_03.png) no-repeat 7px 0px;  transition:1s;  }
+header .pubtop .bottom  h1 .fenxiao .beijing a{color:#e20202;}
+header .pubtop .bottom  h1 .fenxiao .zhengzhou{
+    background:url(../img/header/iconT_05.png) no-repeat 7px 0px;
+    transition:1s;  }
+header .pubtop .bottom  h1 .fenxiao .shenzhen{
+    background:url(../img/header/iconT_07.png) no-repeat 7px 0px;  transition:1s;  }
+header .pubtop .bottom  h1 .fenxiao .chengdu{
+    background:url(../img/header/iconT_09.png) no-repeat 7px 0px;  transition:1s;  }
+header .pubtop .bottom  h1 .fenxiao .shanghai{
+    background:url(../img/header/iconT_11.png) no-repeat 7px 0px;  transition:1s;  }
+
+header .pubtop .bottom  h1 .fenxiao .dalian{
+    background:url(../img/header/iconT_13.png) no-repeat 7px 0px;  transition:1s;  }
+header .pubtop .bottom  h1 .fenxiao .xian{
+    background:url(../img/header/iconT_13.png) no-repeat 7px 0px;  transition:1s;  }
+/*************************导航拦，首页,全栈课程，师资团队*********************************/
+
+header .nav{
+    background:url('../img/header/nav_bg.png') repeat-x;height:auto; color:#ec1c32;}
+header .nav ul{width:1040px;margin:0 auto;}
+header .nav ul li{  font-size:16px;color:#fff;  position:relative;height:40px;
+    line-height:38px; width:120px;  text-align:center; transition:1s;  }
+header .nav ul li:hover{background:#fff; transition:1s;}
+header .nav ul li:hover a{color:#e20202;}
+header .nav ul  .quanzhan{
+    background:url(../img/header/dianqian_03.png) no-repeat 100px 18px;  transition:1s;  }
+header .nav ul  .quanzhan:hover{
+    background:#fff url(../img/header/dianqian_03.png) no-repeat 100px 18px;  transition:1s;  }
+
+header .nav ul li:hover{font-weight:bold;}
+header .nav ul li a{color:#fff; font-weight:normal;}
+header .nav ul li .nav_pic{  position:absolute;  left:-190px;top:45px;  width:1126px;height:133px;
+    padding-bottom: 20px;  display:none; z-index:1;  }
+header .nav ul li .nav_pic li{float:left;}
+header .nav ul li .nav_pic li:nth-child(2){background:none;}
+header .nav ul li .nav_pic li:hover{background:none;}
+header .nav_pic li{padding-top:30px;text-align: center;margin-right:130px;}
+header .nav_pic li:last-child{margin-right:0;}
+header .nav_pic li p{  color:#000;margin-top:10px;  font-weight:normal;font-size:14px;  }
+header .nav_pic li:hover img{  transform:translateY(-10px);  -ms-transform:translateY(-10px);
+    -moz-transform:translateY(-10px);  -webkit-transform:translateY(-10px);  -o-transform:translateY(-10px);  }
+header .nav_pic li:hover img{  transition:transform 500ms;  -moz-transition:transform 500ms;
+    -webkit-transition:transform 500ms;  -o-transition:transform 500ms;  }
+header .nav_pic li img{width:64px;height:64px;transition:transform 500ms;-moz-transition:transform 500ms;
+    -webkit-transition:transform 500ms;  -o-transition:transform 500ms;  }
+header .nav_pic li:hover p{color:#e20202;}
+
+header .nav .box .meau-xiala{position:relative;}
+header .nav .box .meau-xiala .xiala{  position:absolute; width:120px;background:#fff; z-index:99999999;
+    height:auto; top:38px; display:none;  }
+header .nav .box .meau-xiala .xiala li{  width:83px; margin:auto;  border-bottom:1px solid #c5c3c3;
+    line-height:30px; height:30px;  }
+header .nav .box .meau-xiala .xiala li:last-child{border:none;}
+header .nav .box .meau-xiala .xiala li a{font-size:14px; color:#000;}
+header .nav .box .meau-xiala .xiala li:hover{background:none;}
+header .nav .box .meau-xiala .xiala li:hover a{color:#e20202;}
+
+header .box{  display:-ms-flexbox;display:-moz-box;  display:-webkit-box;
+    -ms-flex-pack:justify;  -moz-box-pack:justify;  -webkit-box-pack:justify;  box-pack:justify;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

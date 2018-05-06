@@ -1,0 +1,35 @@
+/********************************footer*******************************/
+.hezuoqiye{  width:100%; background:#fff; margin:0 auto;}
+.hezuoqiye .title{ background:#fff url(../img/footer/yigenjindongtai_title_pic.png)no-repeat center 80px;
+    height:128px; font-size:23px;  text-align: center;  padding-top: 15px;  }
+.hezuoqiye div>.neirong{width:1403px;height:310px;margin:0 auto;}
+.hezuoqiye .neirong ul li{  float:left;  border-radius: 3px;  margin: 9px;  border:1px solid red;  }
+.youqinglianjie{  width:1403px; margin:20px auto;}
+.youqinglianjie .tit{  float:left;  font-size:18px;  }
+.youqinglianjie .wangye{  font-size: 13px;  padding-left: 88px;  line-height: 28px;  margin-bottom: 30px;  }
+.youqinglianjie .wangye>a{  padding-left:13px;  }
+footer{  background:#606060;  overflow: hidden;  color:#fff;  }
+footer .footer-bottom .footer-float{  float: left;  }
+footer .footer-bottom .footer-img{  margin-left:240px;  }
+footer .footer-float{  margin-left:120px;  box-sizing: border-box;  margin-top:45px;  }
+footer .footer-float span img{  width:75px;  height:75px;  }
+footer .footer-float p{  text-align: center;  }
+footer .footer-float ul li{  margin-top:10px;  }
+footer .footer-float ul>li{  font-size: 14px;  }
+footer .footer-float ul>li>a{color:#fff;}
+footer .footer-bottom .footer-img h1>a{color:#fff;}
+footer .footer-bottom .footer-img>h1{padding-top: 20px;}
+footer .footer-bottom .footer-img>h2{padding-top: 20px;}
+footer .youshikecheng a{font-size:16px; margin-right:90px;  font-weight:bold;  color:#fff;  }
+footer .jiaruqunliao{float:right;background-color:deepskyblue;color:#fff;transition:all 0.5s linear;width:70px;
+    text-align: center; line-height:20px;  }
+footer .jiaruqunliao:hover{  color:red;  }
+footer .mainbg{  background:#fff;  width:100%;  padding-bottom:20px;  padding-top:10px;  }
+footer .banquan{text-align: center;margin: 50px 300px 50px;font-weight:bold;font-size:15px;}
+
+
+
+
+
+
+
