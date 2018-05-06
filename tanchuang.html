@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>弹出框</title>
+    <meta charset="utf-8"/>
+    <style>
+        #msg{width:429px;height:253px;position:fixed;right:30px;bottom:-200px;
+            background:url(img/index/m_b_0.gif) no-repeat 208px;transition:all 1s linear;  }
+        #msg>a{float:right;padding:12px 15px;cursor:pointer;}
+        #msg>.talk_main{position:relative;left:218px;top:0;width:100%;height:100%;overflow: hidden;}
+        #msg>.talk_main .talk_content{height:50px;width:180px;margin:5px;font-size: 12px;color:#848484;}
+        #msg>.talk_main .talk_content .msg_content{width:100%;height:100%;resize:none;background-color:#EEE;}
+        #msg>.talk_main>div>input{margin-left: 5px;margin-top:5px;background:#EEE;border:1px solid black;}
+        #msg>.talk_main #talk_submit{background: url(img/index/m_btn_0.gif) no-repeat;font-size: 10px;color: #000;
+            line-height:32px;height:32px;width:63px;text-align: center;float: left;}
+        #msg>.talk_main #talk_freephone{background:url(img/index/m_p_0.gif)no-repeat center center;float:left;width:92px;
+            line-height:32px;height:32px;display:block;padding-left:60px;text-decoration:none;color:#000;font-size:10px;}
+
+    </style>
+
+</head>
+<body>
+<div id="msg">
+    <a href="javascript:down()"><img src="img/index/m_close_0.gif" alt=""/></a>
+    <div class="talk_main">
+        <!--<div class="t_cursor" style="cursor: move;"></div>-->
+        <div class="talk_content">
+            <textarea class="msg_content">输入您的留言信息，我们会尽快联系您!</textarea>
+        </div>
+        <div class="talk_name">
+            <input type="text" class="t_msg_name" value="姓名:"/>
+        </div>
+        <div class="talk_phone">
+            <!--<span class="msg_phone">电话:</span>-->
+            <input type="text" class="t_msg_phone" value="电话:"/>
+        </div>
+        <div class="talk_email">
+            <!--<span class="msg_email">邮箱:</span>-->
+            <input type="email" class="t_msg_email" value="邮箱:"/>
+        </div>
+        <div class="talk_qq">
+            <!--<span class="msg_qq">QQ:</span>-->
+            <input type="text" class="t_msg_qq" value="QQ:"/>
+        </div>
+        <div id="talk_submit">提交</div>
+        <a href="javascript" id="talk_freephone">免费通话</a>
+    </div>
+</div>
+<script>
+    window.onload=function(){
+        msg.style.bottom=0;
+    }
+    function down(){
+        msg.style.bottom=-200+"px";
+        //等三秒后自动上浮!
+    }
+
+</script>
+</body>
+</html>
